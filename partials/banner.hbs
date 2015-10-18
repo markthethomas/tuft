@@ -1,0 +1,12 @@
+<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <div class="text-center">
+        <a href="/">
+          <h1><span style="font-size: 3em">&lambda;</span><br>{{@blog.title}}</h1>
+          <p class="subtitle">{{@blog.description}}</p>
+        </a>
+    </div>
+    <nav class="clearfix">
+        {{navigation}}
+    </nav>
+    <hr>
+</header>

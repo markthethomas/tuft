@@ -1,0 +1,9 @@
+<section class="post-meta">
+  {{#author}}
+    <i class="fa fa-user"></i> <a href="{{url}}">{{name}}</a>
+  {{/author}} |
+  <i class="fa fa-clock-o"></i><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">
+  {{date format="DD MMMM YYYY"}}</time> |
+  <i class="fa fa-tag"></i> {{tags}}
+  <hr>
+</section>
