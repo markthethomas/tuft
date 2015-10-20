@@ -378,7 +378,12 @@ hr.post-separator {
 
 
 section.post-meta {
-  padding: 15px 0 5px;
+  padding: 10px 0 5px;
+}
+
+section.post-meta hr {
+  margin-top: 7px;
+  margin-bottom: 4px;
 }
 
 section.post-excerpt {
