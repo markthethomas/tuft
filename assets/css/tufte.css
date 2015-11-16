@@ -393,3 +393,7 @@ section.post-excerpt {
 .post-excerpt p {
   margin: 12px 0;
 }
+
+code span, pre span {
+    font-family: "Inconsolata" !important;
+}
